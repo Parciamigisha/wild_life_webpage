@@ -1,0 +1,147 @@
+/*
+Parcia Migisha
+11/08/2024
+stylle sheet
+*/
+
+/*CSS Reset */
+h1, header, nev, main, footer, img, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/*Style rules for body and images*/
+body{
+	background-color: #f6eee4;
+}
+img {
+	max-width: 100%;
+}
+
+/*Style rules for mobile view port*/
+
+
+/*Style rule to show mobile class and hide tab-desk class*/
+.mobile {
+    display: block;
+}
+.tab-desk{
+    display: none;
+}
+
+
+/*Style rule for header area*/
+.mobile h1, .mobile h3{
+    padding: 2%;
+    text-align: center;
+}
+
+.mobile h1 {
+    font-family: 'Emblema One', sans-serif;
+}
+.mobile h3 {
+    font-family: 'Lora', serif;
+}
+
+/*Style rule for navigation area*/
+nav {
+    background-color: #2a1f14;
+
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: block;
+    font-size: 1.5em;
+    font-family: geneva, arial, sans-serif;
+    font-weight: bold;
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    border-top-color: #f6eee4 ;
+
+    font-color: #f6eee4;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+/*Style for the main content*/
+main {
+    padding: 2%;
+    font-family: geneva, arial, sans-serif;
+    font-family: 'Lora', serif;
+}
+
+
+main p{
+    font-size: 1.25em;
+}
+main h3{
+    padding-top: 2%;
+}
+main ul{
+    list-style: square;
+}
+link {
+    font-color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.round{
+    border-radius: 6px;
+}
+#info ul{
+    margin-left: 10%;
+}
+
+#contact{
+    text-align: center;
+}
+
+.tel-link{
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel-link a{
+    color: #6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*style rules for footeer content*/
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer{
+    font-color: #f3e6d8;
+    text-decoration: none;
+}
+
+
